@@ -1,0 +1,74 @@
+<!--
+  PINANG ICON SYSTEM — Base Template
+  =====================================
+  Cara pakai:
+  1. Duplikat file ini
+  2. Ganti semua BLOB_ACCENT_COLOR dengan warna accent icon kamu (contoh: #E35273)
+  3. Ganti semua BADGE_FILL_COLOR dengan warna badge (biasanya sama/mirip accent)
+  4. Ganti ICON_ID dengan nama icon (contoh: upload, lock, share)
+  5. Tambah overlay icon di area: x 78–120, y 55–108
+  6. Ganti simbol di dalam badge (path d="...")
+  7. Simpan ke icons/nama-icon.svg
+-->
+<svg width="150" height="130" viewBox="0 0 150 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_ICON_ID)">
+
+  <!-- BLUR BLOBS — ganti BLOB_ACCENT_COLOR, path shape jangan diubah -->
+  <g opacity="0.7">
+    <g filter="url(#filter0_ICON_ID)">
+      <path d="M85.0005 104.499C85.0005 104.499 45.6853 118.805 31.5005 104.499C15.3616 88.2226 30.8888 67.5059 41.5005 54.9992C54.0072 40.2592 82.5005 62.4992 82.5005 62.4992L85.0005 104.499Z" fill="BLOB_ACCENT_COLOR"/>
+    </g>
+    <g opacity="0.7" filter="url(#filter1_ICON_ID)">
+      <!-- blob kanan — JANGAN ubah warna ini -->
+      <path d="M69 27.5002C69 27.5002 110.258 11.6904 123.5 32.5C135.235 50.9416 115 81.5003 115 81.5003L73 73.9999L69 27.5002Z" fill="#8695A1"/>
+    </g>
+  </g>
+
+  <!-- DOCUMENT BASE — jangan ubah apapun di blok ini -->
+  <rect x="45" y="28" width="61" height="73" rx="2" fill="white"/>
+  <rect x="45" y="28" width="61" height="73" rx="2" stroke="#133F5D" stroke-miterlimit="10"/>
+  <ellipse cx="58.1703" cy="42.7402" rx="6.23864" ry="6.31731" fill="#C9E4AA"/>
+  <path d="M87.9771 37.8271L97.7168 37.8276" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M87.9771 42.0381L97.7168 42.0385" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M87.9771 46.25L97.7168 46.2504" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M92.1362 85.5576H97.6817" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M54.7046 57.4805H63.0228" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M87.9771 92.5771L97.7168 92.5776" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M54.7046 61.6924H63.0228" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M54.7046 74.3271H61.6364" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M67.1816 74.3271H74.1135" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M79.6592 74.3271H94.9092" stroke="#D1E5F4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="51.9316" y="67.3076" width="45.75" height="4.21154" rx="1" fill="#D1E5F4"/>
+  <rect x="51.9316" y="67.3076" width="45.75" height="11.2308" rx="1" stroke="#A4CCE9" stroke-miterlimit="10"/>
+  <!-- END DOCUMENT BASE -->
+
+  <!-- OVERLAY ICON — tambah path/shape icon kamu di sini -->
+  <!-- Area: x 78–120, y 55–108 -->
+  <!-- Style: stroke #133F5D sw=1.5, fill #D1E5F4, linecap+linejoin=round -->
+
+  <!-- BADGE — ganti BADGE_FILL_COLOR dan path simbol di dalam -->
+  <!-- Posisi badge jangan diubah -->
+  <rect x="64" y="89" width="22" height="22" rx="11" fill="BADGE_FILL_COLOR"/>
+  <rect x="64" y="89" width="22" height="22" rx="11" stroke="#133F5D" stroke-miterlimit="10"/>
+  <!-- Simbol badge: stroke white, stroke-width 2, linecap+linejoin round -->
+  <!-- Contoh ✕: <path d="M71.3335 96.333L78.6668 103.666M78.6668 96.333L71.3335 103.666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> -->
+  <!-- Contoh ✓: <path d="M70 100L73.5 103.5L80 96" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> -->
+  <!-- Contoh →: <path d="M70.5 100H79.5M76 96L79.5 100L76 104" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> -->
+
+</g>
+<defs>
+  <filter id="filter0_ICON_ID" x="-2.46924" y="22.9521" width="114.47" height="114.905" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+    <feGaussianBlur stdDeviation="13.5" result="effect1_foregroundBlur"/>
+  </filter>
+  <filter id="filter1_ICON_ID" x="42" y="-5.25" width="112.161" height="113.75" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+    <feGaussianBlur stdDeviation="13.5" result="effect1_foregroundBlur"/>
+  </filter>
+  <clipPath id="clip0_ICON_ID">
+    <rect width="150" height="130" fill="white"/>
+  </clipPath>
+</defs>
+</svg>

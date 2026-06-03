@@ -85,6 +85,7 @@ Circle kecil di pojok kiri bawah dokumen. Posisi tidak berubah: `x="64" y="89" w
 | `upload-document.svg` | Cloud + arrow up | `#5B8EE6` | `#4CAF82` ✓ |
 | `lock-document.svg` | Padlock | `#F4A261` | `#F4A261` 🔒 |
 | `share-document.svg` | Share nodes | `#8B5CF6` | `#3B82F6` → |
+| `icon-studio-construction.svg` | Pencil / stylus | `#8B5CF6` | `#8B5CF6` ＋ |
 
 ---
 

@@ -44,5 +44,5 @@ pinang-icons/
 
 # GitHub Account
 
-Gunakan akun `damnn88` untuk project ini.
-Switch: `gh auth switch --user damnn88`
+Gunakan akun `adamaria88` untuk project ini.
+Switch: `gh auth switch --user adamaria88`
